@@ -6,7 +6,8 @@
 
 ## Day 2 - Tuesday
 
-
+* Complete.
 
 ## Day 5 - Friday (part 1-3)
 
+* Complete.
