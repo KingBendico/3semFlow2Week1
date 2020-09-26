@@ -6,8 +6,8 @@
 
 ## Day 2 - Tuesday
 
-* Complete.
+* JPADemo (complete)
 
 ## Day 5 - Friday (part 1-3)
 
-* Complete.
+* Part 1-3 REST with JAX RS (Complete except for red task)
