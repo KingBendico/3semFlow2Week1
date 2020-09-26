@@ -1,0 +1,13 @@
+
+package Exceptions;
+
+/**
+ *
+ * @author Benjamin Choleva
+ */
+public class PersonNotFoundException extends Exception {
+    public PersonNotFoundException(String message) {
+        super(message);
+    }
+
+}
