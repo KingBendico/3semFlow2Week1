@@ -10,4 +10,4 @@
 
 ## Day 5 - Friday (part 1-3)
 
-* Part 1-3 REST with JAX RS (Complete except for red task)
+* Part 1-3 REST with JAX RS (Complete)

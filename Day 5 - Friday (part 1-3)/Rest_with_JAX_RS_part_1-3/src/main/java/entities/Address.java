@@ -2,10 +2,14 @@
 package entities;
 
 import java.io.Serializable;
+import java.util.List;
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 
 /**
@@ -24,6 +28,9 @@ public class Address implements Serializable {
 
     @OneToOne(mappedBy = "address")
     private Person person;
+    
+     @OneToMany(fetch = FetchType.LAZY, mappedBy = "address", cascade = CascadeType.PERSIST)
+    private List<Person> persons;
 
     public Address() {
     }
